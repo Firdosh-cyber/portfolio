@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CI/CD Pipeline Implementation - Project Details</title>
+    <style>
+        /* Reset and Base Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+        }
+
+        .container {
+            width: 80%;
+            margin: 2rem auto;
+            max-width: 1200px;
+        }
+
+        h2 {
+            color: #2c3e50;
+            margin-bottom: 1rem;
+        }
+
+        .tech-stack {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-top: 1rem;
+        }
+
+        .tech-badge {
+            background-color: #3498db;
+            color: white;
+            padding: 0.3rem 0.6rem;
+            border-radius: 4px;
+            font-size: 0.8rem;
+        }
+
+        .project-description {
+            color: #555;
+            font-size: 1rem;
+            margin-top: 1rem;
+        }
+
+        .back-button {
+            background-color: #3498db;
+            color: white;
+            padding: 0.5rem 1.5rem;
+            text-decoration: none;
+            border-radius: 4px;
+            margin-top: 2rem;
+        }
+
+        .back-button:hover {
+            background-color: #1d6fa5;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Kubernetes Cluster Management</h1>
+</header>
+
+<div class="container">
+    <h2>Project Overview</h2>
+    <p>This project involved building a full-fledged CI/CD pipeline from scratch, ensuring that the entire process, from code commit to deployment, is automated and scalable using Jenkins and AWS CodePipeline.</p>
+
+    <h3>Technologies Used</h3>
+    <div class="tech-stack">
+        <span class="tech-badge">AWS CodePipeline</span>
+        <span class="tech-badge">Jenkins</span>
+        <span class="tech-badge">Docker</span>
+        <span class="tech-badge">Terraform</span>
+    </div>
+
+    <h3>Project Goals & Achievements</h3>
+    <p>This project aimed to automate the entire deployment lifecycle, from code commit to production. Key achievements include:
+        <ul>
+            <li>Automating deployments using Jenkins and AWS CodePipeline</li>
+            <li>Integrating Docker containers for consistent deployment across environments</li>
+            <li>Using Terraform for infrastructure as code to provision AWS resources</li>
+        </ul>
+    </p>
+
+    <h3>Challenges & Solutions</h3>
+    <p>During the project, I faced several challenges, including setting up reliable webhook triggers for Jenkins and managing multiple deployment stages. Solutions involved customizing the Jenkins pipeline scripts and using AWS Lambda for automatic trigger management.</p>
+
+    <a href="index.html" class="back-button">Back to Portfolio</a>
+</div>
+
+</body>
+</html>
